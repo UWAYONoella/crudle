@@ -1,0 +1,87 @@
+/* form{
+    width: 40%;
+    margin-left:30 px;
+    margin-top: 50px;
+    border: 2px solid rgb(224, 217, 217);
+    padding: 80px 40px 20px 20px;
+    height: 600px;
+    background-color: rgb(162, 204, 226);
+    border-radius: 8px;
+    
+}
+.container{
+    display: flex;
+    background-color: aquamarine;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    overflow-y: scroll;
+    height: 700px;
+}
+.table{
+    width: 70%;
+    background-color: aliceblue;
+    margin-top: 50px;
+    height: 600px;
+    
+} */
+
+
+
+
+
+table{
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.main{
+    background-color: rgb(127, 157, 255, 0.2);
+    height: 400px;
+    border: none;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 1000px;
+    margin-top: 30px;
+    
+}
+.form1{
+    background-color: rgba(0, 0, 255, 0.644);
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+.table2{
+    background-color: aliceblue;
+    width: 500px;
+}
+#submit{
+    background-color: rgba(0, 128, 0, 0.856);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    font-size: 14px;
+}
+#reset{
+    background-color: rgba(219, 114, 15, 0.856);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    font-size: 14px; 
+    width: 55px;
+}
+input[type=text]{
+    border-radius: 5px;
+}
+#fared{
+    background-color: red;
+    border: none;
+}
+#fafa{
+    background-color: blue;
+    border: none;
+}
