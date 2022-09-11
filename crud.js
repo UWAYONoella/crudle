@@ -54,7 +54,7 @@ document.getElementById("price").value=selectedRow.cells[3].innerHTML;
 }
  
 function onDelete(td){
-    if(alert("are you sure you want to delete this record?")){
+    if(confirm("are you sure you want to delete this record?")){
         row=td.parentElement.parentElement;
         document.getElementById("table2").deleteRow(row.rowIndex);
     }
